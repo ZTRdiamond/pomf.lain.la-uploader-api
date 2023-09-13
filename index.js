@@ -105,7 +105,7 @@ app.post('/file', async (req, res) => {
 
     // Membuat objek FormData
     const formData = new FormData();
-    formData.append('files[]', fs.createReadStream(tempFilePath));
+    formData.append('files', fs.createReadStream(tempFilePath));
 
     // Mengirim permintaan POST ke pomf.lain.la
     const uploadResponse = await axios.post('https://pomf.lain.la/upload.php', formData, {

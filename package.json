@@ -1,0 +1,19 @@
+{
+  "name": "pomf.lain.la-uploader-api",
+  "version": "1.0.0",
+  "description": "just uploader for pomf.lain.la",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "pomf.lain.la-uploader-api"
+  },
+  "keywords": [
+    "pomf.lain.la-uploader",
+    "pomf.lain.la-api"
+  ],
+  "author": "ZTRdiamond",
+  "license": "ISC"
+}
